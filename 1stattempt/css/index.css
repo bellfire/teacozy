@@ -1,0 +1,160 @@
+html{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body{
+  font-family: "Helvetica", sans-serif;
+color: seashell;
+background-color: black;
+font-size: 22px;
+text-align: center;
+}
+a{
+  color: seashell;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+
+
+}
+
+.flex-container{
+  display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.locations{
+  background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+
+}
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+.big-container{
+  padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+  width: 100%;
+   position: fixed;
+   z-index: 5;
+   height: 69px;
+   width: 100%;
+   background-color: black;
+   border-bottom: 1px solid seashell;
+   align-items: center;
+}
+
+
+
+#floaty{
+border: 1px solid red;
+position: relative;
+top: 0px;
+padding-top: 70px;
+ left: 0px;
+height: 80px;
+width: 100%;
+}
+
+header.flex-container{
+
+  height: 69px;
+  width: 100% auto;
+  background-color: black;
+  position: relative;
+  z-index: 5;
+
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+
+header img{
+  height: 50px;
+  padding: 9px, 10px, 9px, 10px ;
+}
+
+.mission{
+  height: 700px;
+  width: 1200px;
+  align-content: center;
+  align-items: center;
+}
+
+.mission img{
+  position: relative;
+}
+
+.missionbanner{
+
+position:absolute;
+top: 350px;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+z-index: 5;
+height: auto;
+width: 1200px;
+background-color: black;
+}
+
+
+.teaofthemonth{
+
+}
+
+.teaheader{
+  width: 1000px;
+  height: auto;
+  justify-content: center;
+}
+
+.monthlyteascontainer{
+  width: 1000px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.monthlytea{
+  margin: 10px
+  height: 200px;
+  width: 300px;
+
+}
+
+.monthlytea img{
+  height: 200px;
+  margin: 10px;
+
+}
